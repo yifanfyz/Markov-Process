@@ -1,0 +1,15 @@
+AI Lab3. Authored by Yifan Zhang
+
+****Compile Example: 
+javac mdp.java
+java mdp -tol 0.0001 input.txt
+java mdp -tol 0.001 -df 0.9 input.txt
+java mdp -tol 0.001 -df 0.9 -min input.txt
+
+****Initial policy (decision node): 
+1. If no -min, choose node with maximum reward.
+2. If with -min, choose node with minimum reward. 
+3. If reward same, choose arbritrary.
+
+****Comment: 
+1. If you want to calculate reward in min mode, just type "-min" 
